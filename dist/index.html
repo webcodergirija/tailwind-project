@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tailwind Project</title>
+  </head>
+  <body class="bg-black">
+    <!-- --------------navbar section----------------- -->
+    <nav
+      class="w-full h-14 bg-slate-300 flex justify-between px-10 md:px-4 items-center"
+    >
+      <div class="text-2xl text-green-600 font-bold">Skill Centre</div>
+      <ul class="md:flex font-semibold hidden">
+        <li class="mx-[10px] cursor-pointer">Home</li>
+        <li class="mx-[10px] cursor-pointer">Contact Us</li>
+        <li class="mx-[10px] cursor-pointer">About Us</li>
+      </ul>
+      <button
+        class="hidden md:block px-1 py-1 bg-green-600 rounded-lg font-semibold text-white"
+      >
+        Login/Signup
+      </button>
+      <div class="md:hidden"><a class="text-4xl" href="#">&#8801;</a></div>
+    </nav>
+    <!-- ------------------NAVBAR ENDS HERE-------------------------- -->
+    <!-- --------------------Image section section------------------ -->
+    <header class="w-full h-auto">
+      <img
+        class="w-full h-[38rem] hidden md:block"
+        src="https://images.pexels.com/photos/159644/art-supplies-brushes-rulers-scissors-159644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt=""
+        srcset=""
+      />
+      <img
+        class="w-full md:hidden"
+        src="https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt=""
+        srcset=""
+      />
+    </header>
+    <!-- --------------------Image section section end here------------------ -->
+
+    <!-- -----------------our student section-------------------------- -->
+    <div
+      class="h-auto w-100 flex-wrap flex-col items-center text-center p-10 text-white"
+    >
+      <div class="w-full h-auto flex flex-wrap flex-col items-center">
+        <h3 class="font-bold text-green-600 text-1xl md:text-4xl">
+          "Pure Hardwork, No Shortcuts !"
+        </h3>
+        <div
+          class="w-32 h-1 mt-2 border-b-4 border-yellow-500 rounded-xl md:w-72 mb-12 mt-4"
+        ></div>
+      </div>
+    </div>
+  </body>
+</html>
