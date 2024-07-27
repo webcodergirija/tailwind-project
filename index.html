@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tailwind Project</title>
+  </head>
+  <body class="bg-black">
+    <!-- --------------navbar section----------------- -->
+    <nav
+      class="w-full h-14 bg-slate-300 flex justify-between px-10 md:px-4 items-center"
+    >
+      <div class="text-2xl text-green-600 font-bold">Skill Centre</div>
+      <ul class="md:flex font-semibold hidden">
+        <li class="mx-[10px] cursor-pointer">Home</li>
+        <li class="mx-[10px] cursor-pointer">Contact Us</li>
+        <li class="mx-[10px] cursor-pointer">About Us</li>
+      </ul>
+      <button
+        class="hidden md:block px-2 py-1 bg-green-600 rounded-lg font-semibold text-white hover:bg-green-950 ease-in-out duration-300 focus:border-blue-950"
+      >
+        Login/Signup
+      </button>
+      <div class="md:hidden"><a class="text-4xl" href="#">&#8801;</a></div>
+    </nav>
+    <!-- ------------------NAVBAR ENDS HERE-------------------------- -->
+    <!-- --------------------Image section section------------------ -->
+    <header class="w-full h-auto">
+      <img
+        class="w-full h-[38rem] hidden md:block"
+        src="https://images.pexels.com/photos/159644/art-supplies-brushes-rulers-scissors-159644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt=""
+        srcset=""
+      />
+      <img
+        class="w-full md:hidden"
+        src="https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt=""
+        srcset=""
+      />
+    </header>
+    <!-- --------------------Image section section end here------------------ -->
+
+    <!-- -----------------our student section-------------------------- -->
+    <div
+      class="h-auto w-100 flex-wrap flex-col items-center text-center p-10 text-white"
+    >
+      <div class="w-full h-auto flex flex-wrap flex-col items-center">
+        <h3 class="font-bold text-green-600 text-1xl md:text-4xl">
+          "Pure Hardwork, No Shortcuts !"
+        </h3>
+        <div
+          class="w-32 h-1 mt-2 border-b-4 border-yellow-500 rounded-xl md:w-72 mb-12 mt-4"
+        ></div>
+      </div>
+      <div class="w-full flex flex-wrap justify-evenly">
+        <div class="w-44 flex flex-col items-center mb-10">
+          <img class="w-44 h-44 rounded-lg" src="../img/courses.svg" alt="" />
+          <p class="text-3xl text-green-300 font-bold">600+</p>
+          <p class="text-2xl text-gray-500 font-bold">Different courses</p>
+        </div>
+        <div class="w-44 flex flex-col items-center mb-10">
+          <img class="w-44 h-44" src="../img/enrolled.svg" alt="" />
+          <p class="text-3xl text-green-300 font-bold">700,000+</p>
+          <p class="text-2xl text-gray-500 font-bold">Students Enrolled</p>
+        </div>
+        <div class="w-48 flex flex-col items-center mb-10">
+          <img class="w-44 h-44" src="../img/transiition.svg" alt="" />
+          <p class="text-3xl text-green-200 font-bold">10,000+</p>
+          <p class="text-2xl text-gray-500 font-bold">Successful Transition</p>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------------student section ends here-----------------------  -->
+    <!-- ---------------------------------product section--------------------------------  -->
+    <div
+      class="h-auto w-100 flex flex-wrap flex-col items-center justify-around md:row text-center p-10 text-white"
+    >
+      <div class="w-full h-auto flex flex-wrap flex-col items-center">
+        <h3 class="font-bold text-green-600 text-1xl md:text-4xl">
+          "OUR PRODUCTS !"
+        </h3>
+        <div
+          class="w-32 h-1 mt-2 border-b-4 border-yellow-500 rounded-xl md:w-72 mb-12 mt-4"
+        ></div>
+      </div>
+      <div class="w-[90%] h-auto flex flex-wrap justify-around">
+        <div
+          class="w-64 flex flex-col items-center mb-12 border-white border-2 rounded-xl p-2"
+        >
+          <img class="w-36" src="../img/coding.svg" alt="" />
+          <p class="capitalize font-bold text-yellow-200 text-xl mb-1">
+            technical skills
+          </p>
+          <p class="capitalize font-semibold px-2 text-sm text-gray-400">
+            At PW Skills, we are Revolutionising your journey of stepping your
+            first foot into your Career through our college programs with
+            partnering up with Top Tier Colleges
+          </p>
+        </div>
+        <div class="w-64 flex flex-col items-center mb-12 p-2">
+          <img class="w-36" src="../img/jobportal.svg" alt="" />
+          <p class="capitalize font-bold text-yellow-200 text-xl mb-1">
+            job portal
+          </p>
+          <p class="capitalize font-semibold px-2 text-sm text-gray-400">
+            PW Skills is your one-stop-shop for upscaling. Get maximum value for
+            time and resources you invest, with job-ready courses &
+            high-technology, available at the lowest cost.
+          </p>
+        </div>
+        <div class="w-64 flex flex-col items-center mb-12 p-2">
+          <img class="w-36" src="../img/education.svg" alt="" />
+          <p class="capitalize font-bold text-yellow-200 text-xl mb-1">
+            growth oppertunity
+          </p>
+          <p class="capitalize font-semibold px-2 text-sm text-gray-400">
+            Build strong coding foundations for a high-paying technology career
+          </p>
+        </div>
+        <div class="w-64 flex flex-col items-center mb-12 p-2">
+          <img class="w-36" src="../img/marketing.svg" alt="" />
+          <p class="capitalize font-bold text-yellow-200 text-xl mb-1">
+            marketing skills
+          </p>
+          <p class="capitalize font-semibold px-2 text-sm text-gray-400">
+            Up-skill yourself with relevant courses to become job ready in
+            Banking
+          </p>
+        </div>
+        <div class="w-64 flex flex-col items-center mb-12 p-2">
+          <img class="w-36" src="../img/medals.svg" alt="" />
+          <p class="capitalize font-bold text-yellow-200 text-xl mb-1">
+            hall of fame
+          </p>
+          <p class="capitalize font-semibold px-2 text-sm text-gray-400">
+            Our student placements and 100K+ career transitions speak volumes.
+            Explore
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------------------------------------PRODUCT SECTION ENDS HERE---------------------------  -->
+    <footer
+      class="w-full bg-gray-800 px-4 h-full items-center text-white pt-8 flex flex-col md:flex-row justify-evenly px-10 h-full"
+    >
+      <div class="mt-5">
+        <img
+          class="w-24 h-10 mx-auto md:mx-0"
+          src="../img/footerlogo.svg"
+          alt="pwlogo"
+        />
+        <p class="my-2">support@pwskills.com</p>
+        <p class="my-2">+91 6361388292</p>
+        <img
+          class="w-24 h-10 mt-5 mx-auto md:mx-0"
+          src="../img/medals.svg"
+          alt="medallogo"
+        />
+      </div>
+      <div></div>
+      <div class="mt-5 mb-5">
+        <div class="">
+          <h2 class="text-2xl text-green-400 font-bold">Company</h2>
+          <div class="w-80 h-1 mt-2 font-bold bg-yellow-500"></div>
+          <div class="mt-5">
+            <ul class="flex flex-row">
+              <div class="mr-20">
+                <li class="pb-5 text-gray-400">About us</li>
+                <li class="pb-5 text-gray-400">Contact us</li>
+                <li class="pb-5 text-gray-400">FAQ</li>
+              </div>
+
+              <div>
+                <li class="pb-5 text-gray-400">Job assistance</li>
+                <li class="pb-5 text-gray-400">Privacy policy</li>
+                <li class="pb-5 text-gray-400">Terms and condition</li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="mt-5 mb-5">
+        <div>
+          <h2 class="text-2xl text-green-400 font-bold">Products</h2>
+          <div class="w-80 h-1 mt-2 font-bold bg-yellow-500"></div>
+          <div class="mt-5">
+            <ul class="flex flex-row">
+              <div class="mr-20">
+                <li class="pb-5 text-gray-400">PW Skills Lab</li>
+                <li class="pb-5 text-gray-400">Experience Portal</li>
+                <li class="pb-5 text-gray-400">Hall Of fame</li>
+              </div>
+
+              <div>
+                <li class="pb-5 text-gray-400">Job Portal</li>
+                <li class="pb-5 text-gray-400">Become an affiliate</li>
+                <li class="pb-5 text-gray-400">Become an affiliate</li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ---------------------FOOTER SECTION ENDS HERE------------------------  -->
+  </body>
+</html>
